@@ -1,0 +1,30 @@
+{
+    "clangd.enable": true,
+    "clangd.arguments": [
+        "--query-driver=C:/MinGW/bin/g++.exe",
+        "--background-index=false"
+    ],
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "editor.semanticHighlighting.enabled": true,
+    "[cpp]": {
+        "editor.semanticHighlighting.enabled": true
+    },
+    "[c]": {
+        "editor.semanticHighlighting.enabled": true
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "type": "#4EC9B0",
+            "class": "#4EC9B0",
+            "struct": "#4EC9B0",
+            "variable": "#9CDCFE",
+            "function": "#DCDCAA",
+            "method": "#DCDCAA",
+            "namespace": "#4EC9B0",
+            "macro": "#569CD6",
+            "parameter": "#9CDCFE",
+            "property": "#9CDCFE"
+        }
+    }
+}
