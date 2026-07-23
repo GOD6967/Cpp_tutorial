@@ -6,6 +6,7 @@ using namespace std;
 void birddoesSomething(Bird *&bird)
 {
     bird->eat();
+    
     bird->fly();
 }
 
